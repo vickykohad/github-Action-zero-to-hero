@@ -4,7 +4,7 @@ name: Hello
 #run on trigger
 on:
  push:
-  branches: [main]
+  branches: [ main ]
 
 #these are jobs inside the workflow
 
@@ -19,5 +19,5 @@ jobs:
    
 
     - name: say hello to users
-    - run: echo "hey"
+      run: echo "Hello GitHub Actions!"
     
