@@ -26,9 +26,9 @@ on:
        run: echo "Testing the container"
       
  deploy:
-   runs-on: ubuntu-latest
-   steps:
+   runs-on: ubuntu-latest 
+    steps:
     - name: Deploying the app
       run: echo "Docker compose deployed the app"
   
-
+  
