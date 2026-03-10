@@ -16,8 +16,7 @@ jobs:
  #this is the github runners each jobs on runners
    runs-on: ubuntu-latest
    steps:
-    - name: say hello to users
-    - run: echo "hello Dosto"
+   
 
     - name: say hello to username
     - run: echo "hello $USER"
