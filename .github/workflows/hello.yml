@@ -20,4 +20,17 @@ jobs:
 
     - name: say hello to users
       run: echo "Hello GitHub Actions!"
-    
+    - name: say hello to username
+      run: echo "hello $USER"
+
+ deatils:
+  runs-on: ubuntu-latest
+  steps:
+  - name: version of docker, python & etc
+    run: docker --version && python --version
+  
+   
+     
+       
+
+      
